@@ -4,7 +4,7 @@ h1 {
   color: aqua;
 }
 
-#containerDiv {
+#holds-squares {
   display: grid;
   width: 100%;
   grid-template-columns: repeat(16, 1fr);
@@ -18,7 +18,7 @@ h1 {
   flex-wrap: wrap;
 } */
 
-#containerDiv > div {
+#holds-squares > div {
   padding-top: 100%;
   display: block;
 }
